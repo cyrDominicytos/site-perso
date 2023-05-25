@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
+    <link rel="import" href="default_header.html">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with JohnDoe landing page.">
-    <meta name="author" content="Devcrud">
-    <title>Cyriaque TOSSOU | Software architect</title>
-    <!-- font icons -->
+    <meta name="description" content="Cyriaque TOSSOU Personal site.">
+    <meta name="author" content="Cyriaque TOSSOU">
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + JohnDoe main styles -->
-	<link rel="stylesheet" href="assets/css/johndoe.css">
+    <link rel="stylesheet" href="assets/css/johndoe.css">
+    <title>Cyriaque TOSSOU | Software architect</title>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
@@ -785,6 +785,10 @@
 
     <!-- JohnDoe js -->
     <script src="assets/js/johndoe.js"></script>
-
+    <!-- Include common code and replace the title -->
+    <link rel="import" href="path/to/common.html">
+    <script>
+    //document.querySelector('title').innerText = "Cyriaque TOSSOU | Software architect";
+    </script>
 </body>
 </html>
